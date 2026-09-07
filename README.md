@@ -1,5 +1,3 @@
-# DasarWeb
-
 # Desain dan Pemrograman Web
 
 Repository ini digunakan untuk menyimpan **source code hasil praktikum dan tugas** mata kuliah **Desain dan Pemrograman Web** pada Semester 3.
