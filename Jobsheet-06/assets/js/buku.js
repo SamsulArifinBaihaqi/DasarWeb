@@ -1,4 +1,3 @@
-// Mengambil & menampilkan Daftar Buku secara asinkron dari data/buku.json
 async function muatDaftarBuku() {
     const tbody = document.querySelector(".table-responsive table tbody");
     const loading = document.getElementById("loading-indicator");
@@ -8,7 +7,6 @@ async function muatDaftarBuku() {
     tbody.innerHTML = "";
 
     try {
-        // simulasi delay jaringan agar loading indicator terlihat
         await new Promise((resolve) => setTimeout(resolve, 600));
 
         const res = await fetch("../data/bukuu.json");
